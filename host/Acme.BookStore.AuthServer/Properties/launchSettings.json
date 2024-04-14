@@ -1,0 +1,12 @@
+{
+  "profiles": {
+    "AuthServerHost": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "applicationUrl": "https://*:44323",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      }
+    }
+  }
+}

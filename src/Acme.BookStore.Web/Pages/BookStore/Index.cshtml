@@ -1,0 +1,11 @@
+﻿@page
+@using Microsoft.Extensions.Localization
+@using Acme.BookStore.Localization
+@using Acme.BookStore.Web.Pages.BookStore
+@model Acme.BookStore.Web.Pages.BookStore.IndexModel
+@inject IStringLocalizer<BookStoreResource> L
+
+@{
+}
+<h1>BookStore</h1>
+<p>@L["SamplePageMessage"]</p>
